@@ -1,0 +1,20 @@
+package com.xuxx.vhr.service;
+
+import com.xuxx.vhr.mapper.NationMapper;
+import com.xuxx.vhr.model.Nation;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class NationService {
+
+    @Autowired
+    NationMapper nationMapper;
+
+
+    public List<Nation> getAllNations() {
+        return nationMapper.getAllNations();
+    }
+}

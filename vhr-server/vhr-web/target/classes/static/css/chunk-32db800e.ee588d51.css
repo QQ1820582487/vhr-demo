@@ -1,0 +1,1 @@
+.slide-fade-enter-active{-webkit-transition:all .6s ease;transition:all .6s ease}.slide-fade-leave-active{-webkit-transition:all .3s cubic-bezier(1,.5,.8,1);transition:all .3s cubic-bezier(1,.5,.8,1)}.slide-fade-enter,.slide-fade-leave-to{-webkit-transform:translateX(10px);transform:translateX(10px);opacity:0}
